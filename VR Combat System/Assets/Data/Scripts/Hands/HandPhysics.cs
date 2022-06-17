@@ -9,11 +9,30 @@ namespace Krrk
     {
         public Transform targetController;
         private Rigidbody rigid;
+        private Collider[] handColliders;
 
         // Start is called before the first frame update
         void Start()
         {
             rigid = GetComponent<Rigidbody>();
+            handColliders = GetComponentsInChildren<Collider>();
+        }
+
+        public void EnableHandColliderDelay(float delay)
+        {
+            Invoke("EnableHandColliders", delay);
+        }
+
+        public void EnableHandColliders()
+        {
+            foreach (Collider collider in handColliders)
+                collider.enabled = true;
+        }
+
+        public void DisableHandColliders()
+        {
+            foreach (Collider collider in handColliders)
+                collider.enabled = false;
         }
 
         void FixedUpdate()
