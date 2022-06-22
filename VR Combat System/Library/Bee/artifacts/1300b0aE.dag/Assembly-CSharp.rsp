@@ -334,6 +334,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Services.Core.Environments.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Services.Core.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Subsystem.Registration.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.TerrainTools.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.TerrainTools.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll"
@@ -372,12 +374,16 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Art/Models/Weapons/Swords/VarcanRex/LongSword/Scripts/SimpleRotate.cs"
+"Assets/Art/Terrains/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/MouseLook.cs"
+"Assets/Art/Terrains/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/PlayerMovement.cs"
 "Assets/Data/Controls/XR Interaction Toolkit/2.0.2/Starter Assets/XRI Default Input Actions.cs"
 "Assets/Data/Prefabs/Oculus Hands Physics/Scripts/HandPresence.cs"
+"Assets/Data/Scripts/EnemyAnimatorHandler.cs"
 "Assets/Data/Scripts/Hands/HandAnimatorHandler.cs"
 "Assets/Data/Scripts/Hands/HandPhysics.cs"
 "Assets/Data/Scripts/InputHandler.cs"
 "Assets/Data/Scripts/PlayerManager.cs"
+"Assets/Data/Scripts/ResetAnimatorBool.cs"
 -langversion:9.0
 
 /deterministic
