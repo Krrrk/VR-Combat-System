@@ -21,6 +21,7 @@ namespace Krrk
         public bool y_Input;
         public bool menu_Input;
         public bool home_Input;
+        public bool spacebar_Input;
 
         XRIDefaultInputActions inputActions;
 
@@ -50,6 +51,7 @@ namespace Krrk
         {
             HandleButtonPresses();
             HandleButtonValues();
+            HandleSpaceBar();
         }
 
         //Handles all boolean values from button presses
@@ -66,6 +68,11 @@ namespace Krrk
             inputActions.LeftController.Y.performed += i => y_Input = true;
             inputActions.LeftController.Menu.performed += i => menu_Input = true;
             inputActions.RightController.Home.performed += i => home_Input = true;
+        }
+
+        private void HandleSpaceBar()
+        {
+            inputActions.Keyboard.Spacebar.performed += i => spacebar_Input = true;
         }
 
         //Handles all float values from button presses
@@ -116,6 +123,7 @@ namespace Krrk
             y_Input = false;
             menu_Input = false;
             home_Input = false;
+            spacebar_Input = false;
         }
     }
 }

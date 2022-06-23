@@ -6,6 +6,8 @@ TagManager:
   tags:
   - LeftHand
   - RightHand
+  - PlayerWeapon
+  - EnemyWeapon
   layers:
   - Default
   - TransparentFX
