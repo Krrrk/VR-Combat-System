@@ -9,6 +9,12 @@ ModelImporter:
   - first:
       74: 6589092039564311902
     second: BlockingLoop
+  - first:
+      74: 6589092039564311902
+    second: human_male_blocking_01
+  - first:
+      74: -517674273957482040
+    second: BlockingLoop
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -39,11 +45,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: tpose
-      takeName: tpose
+      name: human_male_blocking_01
+      takeName: human_male_blocking_01
       internalID: 0
-      firstFrame: 0
-      lastFrame: 1
+      firstFrame: 2
+      lastFrame: 42
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

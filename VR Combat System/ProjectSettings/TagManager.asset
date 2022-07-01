@@ -8,6 +8,8 @@ TagManager:
   - RightHand
   - PlayerWeapon
   - EnemyWeapon
+  - Enemy
+  - PlayerOrigin
   layers:
   - Default
   - TransparentFX

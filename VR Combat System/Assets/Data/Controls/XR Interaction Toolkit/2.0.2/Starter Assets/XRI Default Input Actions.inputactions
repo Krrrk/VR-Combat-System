@@ -1200,11 +1200,33 @@
                 },
                 {
                     "name": "",
+                    "id": "dddd7a26-9c83-4284-8ca4-a91924ce86ed",
+                    "path": "<XRController>{LeftHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "X",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "d31a98c9-0724-4118-84d5-38302c6d81d7",
                     "path": "<XRController>{LeftHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
+                    "action": "Y",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4faae0fa-cc9f-4aed-bcc7-d4cdfa067948",
+                    "path": "<XRController>{LeftHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Y",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -1348,11 +1370,33 @@
                 },
                 {
                     "name": "",
+                    "id": "c46588eb-3c54-4e1b-94b3-2f6fd18fb064",
+                    "path": "<XRController>{RightHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "2d51b821-d705-4869-8996-ac222922bb7d",
                     "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
+                    "action": "B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "690d1ae9-b3da-43f4-b11e-b2d796581eaf",
+                    "path": "<XRController>{RightHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "B",
                     "isComposite": false,
                     "isPartOfComposite": false
