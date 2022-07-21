@@ -6,6 +6,8 @@ namespace Krrk
 {
     public class WeaponTip : MonoBehaviour
     {
+        public bool colliderEnabled;
+
         private float minimumSpeed;
         private float minimumTime;
 
@@ -44,6 +46,7 @@ namespace Krrk
                 {
                     damageCollider.EnableCollider();
                     trailRenderer.emitting = true;
+                    colliderEnabled = true;
                 }
             }
             else
@@ -51,7 +54,7 @@ namespace Krrk
                 timeCounter = 0;
                 damageCollider.DisableCollider();
                 trailRenderer.emitting = false;
-
+                colliderEnabled = false;
             }
         }
     }

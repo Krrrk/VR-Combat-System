@@ -44,6 +44,11 @@ namespace Krrk
                     playerStats.TakeDamage(weaponHandler.weaponDamage);
                 }
             }
+            //else if (this.CompareTag("EnemyWeapon") && collision.CompareTag("PlayerWeapon")) {
+            //    BlockHandler blockHandler = this.GetComponentInParent<BlockHandler>();
+
+            //    blockHandler.HandleBlock();
+            //}
         }
     }
 }
