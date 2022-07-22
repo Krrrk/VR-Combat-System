@@ -391,6 +391,7 @@
 "Assets/Data/Scripts/Enemy/EnemyManager.cs"
 "Assets/Data/Scripts/Enemy/EnemyStats.cs"
 "Assets/Data/Scripts/Enemy/TestEnemyBlocker.cs"
+"Assets/Data/Scripts/Enemy/TestEnemyBlocker1.cs"
 "Assets/Data/Scripts/Hands/HandAnimatorHandler.cs"
 "Assets/Data/Scripts/Hands/HandPhysics.cs"
 "Assets/Data/Scripts/Inputs/InputHandler.cs"
